@@ -6,6 +6,10 @@ This is some code I pulled together to generate some basic music videos for inst
 The audio code and some of the spectral visualizations were built by following an awesome set of tutorials on YouTube
 by Peer Play, here's the first one: https://www.youtube.com/watch?v=4Av788P9stk
 
+The results of this template output an audio visualization that looks similar to this.
+
+[![Music Video Screenshot](./screenshot.png)](https://www.youtube.com/watch?v=w0AQ8lia9w8)
+
 Unity Asset Requirements
 ========================
 * Unity Post Processing Stack - v1.0.4 [https://assetstore.unity.com/packages/essentials/post-processing-stack-83912](https://assetstore.unity.com/packages/essentials/post-processing-stack-83912)
@@ -25,3 +29,8 @@ How-To
 be > 0.25 or so because the UnityRecorder component misses the first few frames, so you lose audio without a slight delay.
 * With the free UnityRecorder asset installed, you head to the Window > General > Recorder > Recording Window
 * Set the start and end times, and hit Start Recording
+
+Credits
+======
+
+The human model and dancing animation are from [mixamo.com](https://www.mixamo.com/).
